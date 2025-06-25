@@ -10,13 +10,13 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
-import com.syam.quizapp.dao.QuestionDao;
-import com.syam.quizapp.dao.QuizDao;
 import com.syam.quizapp.dto.QuestionDto;
 import com.syam.quizapp.dto.QuizDto;
 import com.syam.quizapp.model.Question;
 import com.syam.quizapp.model.Quiz;
 import com.syam.quizapp.model.QuizResponse;
+import com.syam.quizapp.repository.QuestionDao;
+import com.syam.quizapp.repository.QuizDao;
 
 @Service
 public class QuizService {

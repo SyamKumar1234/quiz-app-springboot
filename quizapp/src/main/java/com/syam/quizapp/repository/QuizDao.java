@@ -1,4 +1,4 @@
-package com.syam.quizapp.dao;
+package com.syam.quizapp.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
